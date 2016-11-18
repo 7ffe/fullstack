@@ -13,3 +13,9 @@ https://pubs.vmware.com/vfabric52/index.jsp?topic=/com.vmware.vfabric.rabbitmq.2
 sudo /sbin/service rabbitmq-server start
 sudo /sbin/service rabbitmq-server stop
 sudo /sbin/service rabbitmq-server restart
+
+ElasticSearch:
+sudo systemctl start elasticsearch.service
+sudo systemctl stop elasticsearch.service
+sudo systemctl daemon-reload
+sudo systemctl enable elasticsearch.service
